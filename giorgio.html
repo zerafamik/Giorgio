@@ -1,0 +1,85 @@
+<!--
+
+<!DOCTYPE html>
+<html>
+	<head>
+			<Title> Giorgio </Title>
+			<link rel = "stylesheet" href = "../css/webCss.css"> </link>
+			<script src="../js/signUpValidation.js"></script>
+			<script src="../js/contentLoader.js"></script>
+			<script src="../js/GiorgioScript.js"></script>
+			<script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+	</head>
+
+	
+
+		<header onload = "giveFunctionalityToNav()">
+
+			<img src = "../logo/GiorgioLogoOriginal.png" alt = "Giorgio Logo"/>
+
+			<nav>
+				<ul>
+					<li> <a href="javascript: loadHome();" > Home </a> </li>
+					<li> <a href="javascript: loadAbout();" >About </a> </li>
+					<li> <a href="javascript:loadLogin();" > Login </a> </li>
+					<li> <a href="javascrip: loadSignup();"> Sign Up </a> </li>
+					<li> <a href="javascript: loadHighscores();"> HighScores </a> </li>
+				</ul>
+			</nav>
+
+		</header>
+
+-->
+
+<!--<?php include 'header.php'; ?> -->
+
+<!DOCTYPE html>
+<html>
+<?php echo '<p>Hello World</p>'; ?> 
+
+	<body>
+
+		<div id = "Content">
+
+				<section id="signup">
+
+					<h1 class = "pageTitle"> Signup </h1>
+
+
+					<div id="SignUpInput">
+
+							<div id="inputTitles">
+								<ul>
+									<li> <p>username</p> </li>
+									<li> <p>E-mail</p> </li>
+									<li> <p id = "passwordTitle">password</p> </li>
+									<li> <p id = "confirmPasswordTitle">confirm password </p> </li>
+								</ul>
+							</div>
+
+							<div id="inputElements">
+
+								<ul>
+										<li> <input id="usernameTxt" type="text" placeholder="username123"> </li>
+										<li> <input id="EmailTxt" type="text" placeholder="username123@Giorgio.com"> </li>
+										<li> <input id="passwordTxt" type="password" oninput= "checkPasswordValid()" </li>
+										<li> <input id="confirmPasswordTxt" type="password" oninput="checkConfirmPasswordValid()" </li>
+								</ul>
+
+							</div>
+					</div>
+
+					<button id="signupButton"> Signup </button>
+				</section>
+
+			</div>
+		</body>
+
+<!--<?php include 'footer.php';?> -->
+
+
+	<footer>
+		<p> by Mikhail Zerafa </p>
+	</footer>
+
+</html>

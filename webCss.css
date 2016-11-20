@@ -1,0 +1,305 @@
+/* Colours to be used
+  dark purple : #49274A
+  purple : #94618E;
+  Sand : #F4DECB;
+  Shell : #F8EEE7;
+*/
+
+h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+:root
+{
+	--color1 :#031424; /*body */
+	--color2 :#8EAEBD; /* header */
+	--color3 :#30415D; /* content1 */
+	--color4 :#000011; /* content2 */
+
+	--bodyWidth : 1870px;
+}
+body
+{
+
+	font-family: Arial;
+	font-size: 18px;
+	color: var(--color1);
+
+	background-color: var(--color1); 
+	width: var(--bodyWidth);
+	padding: 0px;
+	margin : 0px auto;
+
+}
+
+
+.pageTitle
+{
+	font-size: 72px;
+	font-weight: bold;
+	color: var(--color2);
+}
+
+
+/* HEADER STUFF */
+
+header
+{
+	margin: auto;
+	width: var(--bodyWidth);
+	background-color: var(--color2);
+	height: 420px;
+}
+
+header img
+{
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+
+nav
+{
+	text-align: center;
+}
+
+nav li
+{
+	display: inline;
+	padding: 30px;
+}
+
+nav li a
+{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+nav li:hover
+{
+	font-size: 18.5px;
+	font-weight: bold;
+}
+
+/*CONTENT STUFF */
+
+
+#Content
+{
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width : var(--bodyWidth);
+	background-color: var(--color3);
+}
+
+
+/* Footer */
+
+footer
+{
+	width: var(--bodyWidth);
+	text-align: right;
+	
+	height: 64px;
+	background-color: var(--color2);
+	color: var(--color1);
+}
+
+footer p
+{
+	margin-top: auto;
+	padding: 23px;
+	opacity: 0.7;
+}
+
+
+/* SPECIFIC ELEMENTS */
+
+/*GAME*/
+
+#GamePart
+{
+	background-color: var(--color4);
+	margin: auto;
+	padding: 20px;
+}
+
+#gameCanvas
+{
+	background-color: var(--color2);
+	margin: auto;
+	display: block;
+}
+
+/*CONTROLS*/
+
+#ControlsPart
+{
+	position: relative;
+	background-color: var(--color3);
+	color: var(--color4);
+	text-align: center;
+	color: var(--color2);
+	opacity: 0.75;
+	margin: auto;
+}
+
+#ControlsPart h1
+{
+	font-size: 70px;
+}
+
+
+#MovementControlsPart
+{
+	position: relative;
+	bottom: 20px;
+	width: 30%;
+	display: inline-block;
+	/*background-color: var(--color2);*/
+}
+
+#FireControlsPart
+{
+	position: relative;
+	bottom: 97px;
+	width: 30%;
+	display: inline-block;
+	/*background-color: var(--color2);*/
+}
+
+#FireControlsIcons
+{
+	display: block;
+}
+
+
+#MovementControlsInput
+{
+	display: inline-block;
+
+}
+
+#MovementControlsOutput
+{
+	margin-left: 40px;
+	display: inline-block;
+}
+
+
+#FireControlsIcons
+{
+	display: inline-block;
+}
+
+#FireControlsOutput
+{
+	margin-left: 40px;
+	display: inline-block;
+}
+
+/*HIGHSCORES*/
+
+#highscoresPart
+{
+	background-color: var(--color3);
+	text-align: center;
+}
+
+#highscores
+{
+	color: var(--color2);
+	margin: 0 auto;
+}
+
+#highscores th
+{
+	font-size: 20px;
+}
+
+#usersInfo
+{
+	color: #8cff66;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pos
+{
+	width: 15px;
+}
+.username
+{
+	width: 280px;
+}
+.score
+{
+	width: 70px;
+}
+
+/*SignUp*/
+#signup
+{
+	text-align: center;
+}
+
+
+#signup ul
+{
+	list-style: none;
+	display: inline;
+}
+
+
+#signup p
+{
+	padding: 10px;
+	display: inline;
+}
+
+#SignUpInput
+{
+	width: 20%;
+	margin: 0 auto;
+	display: flex;
+}
+
+#inputTitles
+{
+	text-align: left;
+	font-weight: bold;
+	color: var(--color2);
+	float: left;
+}
+
+#inputTitles li
+{
+	padding: 5px;
+}
+
+#inputElements
+{
+	display: inline;
+}
+
+#inputElements li
+{
+	padding: 5px;
+}
+
+#signup button
+{
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 5px auto;
+	margin-bottom: 15px;
+}
+
+
+
+
+
